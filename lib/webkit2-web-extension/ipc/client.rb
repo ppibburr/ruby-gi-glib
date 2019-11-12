@@ -1,4 +1,4 @@
-require './webkit2-web-extension/ipc/io-util'
+require 'webkit2-web-extension/ipc/io-util'
 
 module WebKit2WebExtension
   module IPC

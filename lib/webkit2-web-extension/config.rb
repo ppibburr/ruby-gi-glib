@@ -17,7 +17,7 @@ module WebKit2WebExtension
   def self.config o={}
     default = {
       context:         WebKit2Gtk::WebContext.default(),
-      extensions_path: File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'ext')),
+      extensions_path: File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'ext','webkit2-web-extension')),
       extension:       './extension.rb',
       ipc_socket_path: ipc? ? ipc_service.socket_path : nil,
       data:            {}
